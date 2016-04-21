@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57CD90271CC6C42A006AFB1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CD90251CC6C42A006AFB1D /* LaunchScreen.storyboard */; };
+		57D7A3671CC915D300E372B4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D7A3651CC915D300E372B4 /* Launch Screen.storyboard */; };
 		F62437421B862299002C4494 /* RecentSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62437411B862299002C4494 /* RecentSearchTableViewController.swift */; };
 		F62437441B865A5F002C4494 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62437431B865A5F002C4494 /* UserDefaults.swift */; };
 		F6DC77A41B8221FB00BF1F71 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC77A31B8221FB00BF1F71 /* ImageTableViewCell.swift */; };
@@ -39,9 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		57CD8F851CC6BF66006AFB1D /* Smashtag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Smashtag.app; path = "/Users/andrewLoutfi/Desktop/Smashtag/build/Debug-iphoneos/Smashtag.app"; sourceTree = "<absolute>"; };
-		57CD8F861CC6BF66006AFB1D /* SmashtagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SmashtagTests.xctest; path = "/Users/andrewLoutfi/Desktop/Smashtag/build/Debug-iphoneos/SmashtagTests.xctest"; sourceTree = "<absolute>"; };
-		57CD90261CC6C42A006AFB1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../CS353/CS353Calculator-master/Calculator2/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		57D7A3521CC90BAC00E372B4 /* Smashtag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smashtag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D7A3531CC90BAC00E372B4 /* SmashtagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashtagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D7A3661CC915D300E372B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		F62437411B862299002C4494 /* RecentSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentSearchTableViewController.swift; sourceTree = "<group>"; };
 		F62437431B865A5F002C4494 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		F6DC77A31B8221FB00BF1F71 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageTableViewCell.swift; path = ../ImageTableViewCell.swift; sourceTree = "<group>"; };
@@ -88,6 +88,8 @@
 				F6EC76BD1B7DAE33004D4127 /* Smashtag */,
 				F6EC76E21B7DAF42004D4127 /* Twitter */,
 				F6EC76D31B7DAE33004D4127 /* SmashtagTests */,
+				57D7A3521CC90BAC00E372B4 /* Smashtag.app */,
+				57D7A3531CC90BAC00E372B4 /* SmashtagTests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +99,7 @@
 				F6EC76C41B7DAE33004D4127 /* Main.storyboard */,
 				F6EC76E01B7DAED3004D4127 /* TweetTableViewController.swift */,
 				F6EC76EB1B7DCBA9004D4127 /* TweetTableViewCell.swift */,
+				57D7A3651CC915D300E372B4 /* Launch Screen.storyboard */,
 				F6E7B7041B80FE7400F5A6FB /* TweetMentionsTableViewController.swift */,
 				F6DC77A31B8221FB00BF1F71 /* ImageTableViewCell.swift */,
 				F6E735CE1B837F7D0054C409 /* WebViewController.swift */,
@@ -104,7 +107,6 @@
 				F6E735D01B844C3E0054C409 /* ScrollViewController.swift */,
 				F6DFB0F81B88C87000EB3210 /* TweetCollectionViewController.swift */,
 				F6EC76C71B7DAE33004D4127 /* Images.xcassets */,
-				57CD90251CC6C42A006AFB1D /* LaunchScreen.storyboard */,
 				F6EC76C01B7DAE33004D4127 /* AppDelegate.swift */,
 				F6EC76BF1B7DAE33004D4127 /* Info.plist */,
 				F62437431B865A5F002C4494 /* UserDefaults.swift */,
@@ -159,7 +161,7 @@
 			);
 			name = Smashtag;
 			productName = Smashtag;
-			productReference = 57CD8F851CC6BF66006AFB1D /* Smashtag.app */;
+			productReference = 57D7A3521CC90BAC00E372B4 /* Smashtag.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F6EC76CF1B7DAE33004D4127 /* SmashtagTests */ = {
@@ -177,7 +179,7 @@
 			);
 			name = SmashtagTests;
 			productName = SmashtagTests;
-			productReference = 57CD8F861CC6BF66006AFB1D /* SmashtagTests.xctest */;
+			productReference = 57D7A3531CC90BAC00E372B4 /* SmashtagTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -225,7 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57CD90271CC6C42A006AFB1D /* LaunchScreen.storyboard in Resources */,
+				57D7A3671CC915D300E372B4 /* Launch Screen.storyboard in Resources */,
 				F6EC76C61B7DAE33004D4127 /* Main.storyboard in Resources */,
 				F6EC76C81B7DAE33004D4127 /* Images.xcassets in Resources */,
 			);
@@ -282,12 +284,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		57CD90251CC6C42A006AFB1D /* LaunchScreen.storyboard */ = {
+		57D7A3651CC915D300E372B4 /* Launch Screen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				57CD90261CC6C42A006AFB1D /* Base */,
+				57D7A3661CC915D300E372B4 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = "Launch Screen.storyboard";
 			sourceTree = "<group>";
 		};
 		F6EC76C41B7DAE33004D4127 /* Main.storyboard */ = {
@@ -425,7 +427,7 @@
 				);
 				INFOPLIST_FILE = SmashtagTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "swift.Smashtag";
+				PRODUCT_BUNDLE_IDENTIFIER = swift.Smashtag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smashtag.app/Smashtag";
 			};
@@ -441,7 +443,7 @@
 				);
 				INFOPLIST_FILE = SmashtagTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "swift.Smashtag";
+				PRODUCT_BUNDLE_IDENTIFIER = swift.Smashtag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smashtag.app/Smashtag";
 			};
